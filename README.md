@@ -81,6 +81,8 @@ Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Au�
 
 Highcharts unterstützt so wie Sencha von Haus aus keine Gantt-Diagramme. Das ist die Challenge ;-)
 
-Nun ist [Rapha&euml;l](https://github.com/DmitryBaranovskiy/raphael) Teil von Sencha. Eine schlichte Lösung (ohne Interaktion) wäre [Erikthered](https://github.com/erikthered/raphael-gantt) 
+Nun ist [Rapha&euml;l](https://github.com/DmitryBaranovskiy/raphael) Teil von Sencha. Eine schlichte Lösung (ohne Interaktion) wäre von [Erikthered](https://github.com/erikthered/raphael-gantt) 
 ![](https://raw.githubusercontent.com/erikthered/raphael-gantt/master/examples/example.png)
+
+
 
