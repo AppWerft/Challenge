@@ -89,3 +89,5 @@ In Abhängigkeit vom Budget und Zeit sit alles möglich, eventuell auch diese L�
 ![](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/online-gantt-chart.gif)
 
 [Quelle](https://www.smartsheet.com/s/global-online-gantt-chart?s=156&c=73&m=414&a=51794163427&k=%2Bgantt&mtp=b&adp=1t2&net=g&dev=c&devm=&mkwid=sDQm8pEhv|dc&plc=&gclid=Cj0KEQjwi7vIBRDpo9W8y7Ct6ZcBEiQA1CwV2BLs3E9Clqc4Ct6wDCRY8pHtgDLJWxKeOreA62eliJsaAn6e8P8HAQ)
+
+Hier könnte in die Herausforderung in der Anbindung bestehen.
