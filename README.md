@@ -81,5 +81,5 @@ Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Au�
 
 Highcharts unterstützt so wie Sencha von Haus aus keine Gantt-Diagramme. Das ist die Challenge ;-)
 
-
+Nun ist Rapha&euml;l Teil von Sencha. 
 
