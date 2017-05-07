@@ -58,7 +58,13 @@ Nun muss also neuer Code in das Projekt. Die Qualität dieses Readers kann nicht
 - [x] CSV ist genau in dem Format, also kommasepariert und in Doppelquote eingepackt,
 - [x] unterstellt, dass in den Datensätzen keine Zeilenumbrüche sind.
 
+Es muss eine robuste, verlässliche Library her. Ohne das wirklich geprüft zu haben, könnte [Papa Parse](http://papaparse.com/) eine Lösung sein. 
 
+Um so weit wie möglich in der Senchwelt zu bleiben, wird es sinnvolls ein, die Function:
+```javascript
+Papa.parse(csvString[, config])
+```
+zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfiguration des Parsers ist [hier](http://papaparse.com/docs#config)
 
 ## kundengerechte Darstellung eines Projektverlaufes 
 
