@@ -1,6 +1,6 @@
 # Challenge
 
-<img src="https://www.google.de/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjSgozept7TAhXDOxoKHTm9A-kQjRwIBw&url=https%3A%2F%2Fdocs.sencha.com%2Fextjs%2F6.0.2%2Fguides%2Fcore_concepts%2Fcomponents.html&psig=AFQjCNE9Q3rx4dtXAHeIhK5s6iek3ma2-w&ust=1494264310590770" width="200" /> 
+<img src="https://www.sencha.com/img/sencha-large.png" width="200" /> 
 
 ## Import einer CSV in Sencha extJS
 
