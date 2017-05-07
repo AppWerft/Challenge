@@ -11,7 +11,7 @@ store: new Ext.data.Store({
      proxy: {
        type: 'ajax',
        url: 'http://csv-uri/fake.txt',
-       reader: Csvreader
+       reader:  Ext.create('CsvReader'); 
      },
 }),
 ```
