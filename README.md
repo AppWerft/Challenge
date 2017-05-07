@@ -64,10 +64,20 @@ Es muss eine robuste, verlässliche Library her. Ohne das wirklich geprüft zu h
 
 Um so weit wie möglich in der Senchwelt zu bleiben, wird es sinnvolls ein, die Function:
 ```javascript
-Papa.parse(csvString[, config])
+toJson: function(csvData){
+      var result = Papa.parse(csvData[, config]);
+      if (Array.isArrqay(result))
+          return result;
+    },  // eventuell Anbinddung an Error-System …
+
 ```
 zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfiguration des Parsers ist [hier](http://papaparse.com/docs#config)
 
 ## kundengerechte Darstellung eines Projektverlaufes 
 
-Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo)
+Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo). Welche Lösung gewinnt hängt selbstverständlich von den Kundenanforderungen ab.
+
+Highcharts unterstützt so wie Sencha von Haus aus keine Gantt-Diagramme. Das ist die Challenge ;-)
+
+
+
