@@ -4,14 +4,14 @@
 
 ## Import einer CSV in Sencha extJS
 
-Dateh werden intern in einem Model/Store gehalten. Für den Import externer Daten wird ein Proxy benötigt:
+Daten werden im Sencha Sytem intern in einem Model bzw. Store gehalten. Für den Import externer Daten wird ein Proxy benötigt:
 ```javascript
 store: new Ext.data.Store({
      model: 'myProject',
      proxy: {
        type: 'ajax',
        url: 'http://csv-uri/fake.txt',
-       reader: new MyReader()
+       reader: Csvreader
      },
 }),
 ```
