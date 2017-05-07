@@ -77,6 +77,8 @@ zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfigur
 
 Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo). Welche Lösung gewinnt hängt selbstverständlich von den Kundenanforderungen ab.
 
+![](http://www.aceproject.com/img/ss/gantt-chart-en.jpg)
+
 Highcharts unterstützt so wie Sencha von Haus aus keine Gantt-Diagramme. Das ist die Challenge ;-)
 
 
