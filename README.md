@@ -84,5 +84,8 @@ Highcharts unterstützt so wie Sencha von Haus aus keine Gantt-Diagramme. Das is
 Nun ist [Rapha&euml;l](https://github.com/DmitryBaranovskiy/raphael) Teil von Sencha. Eine schlichte Lösung (ohne Interaktion) wäre von [Erikthered](https://github.com/erikthered/raphael-gantt) 
 ![](https://raw.githubusercontent.com/erikthered/raphael-gantt/master/examples/example.png)
 
+In Abhängigkeit vom Budget und Zeit sit alles möglich, eventuell auch diese Lösung:
 
+![](https://d2myx53yhj7u4b.cloudfront.net/sites/default/files/online-gantt-chart.gif)
 
+[Quelle](https://www.smartsheet.com/s/global-online-gantt-chart?s=156&c=73&m=414&a=51794163427&k=%2Bgantt&mtp=b&adp=1t2&net=g&dev=c&devm=&mkwid=sDQm8pEhv|dc&plc=&gclid=Cj0KEQjwi7vIBRDpo9W8y7Ct6ZcBEiQA1CwV2BLs3E9Clqc4Ct6wDCRY8pHtgDLJWxKeOreA62eliJsaAn6e8P8HAQ)
