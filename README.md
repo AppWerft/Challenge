@@ -62,7 +62,7 @@ Nun muss also neuer Code in das Projekt. Die Qualität dieses Readers kann nicht
 
 Es muss eine robuste, verlässliche Library her. Ohne das wirklich geprüft zu haben, könnte [Papa Parse](http://papaparse.com/) eine Lösung sein. 
 
-Um so weit wie möglich in der Senchwelt zu bleiben, wird es sinnvolls ein, die Function:
+Um so weit wie möglich in der Senchawelt zu bleiben, wird es sinnvolls ein, die Funktion:
 ```javascript
 toJson: function(csvData){
       var result = Papa.parse(csvData[, config]);
@@ -71,7 +71,7 @@ toJson: function(csvData){
     },  // eventuell Anbinddung an Error-System …
 
 ```
-zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfiguration des Parsers ist [hier](http://papaparse.com/docs#config)
+zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfiguration des Parsers ist [hier](http://papaparse.com/docs#config), Für sehr große CSV-Dateien bräucht man ein System, das in Abhängigkeit des Viewports in der CSV-Datei seekt (RecyclerView in Android)
 
 ## kundengerechte Darstellung eines Projektverlaufes 
 
