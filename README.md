@@ -68,3 +68,4 @@ zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfigur
 
 ## kundengerechte Darstellung eines Projektverlaufes 
 
+Für die Darstellung des Projektverlaufes bietet sich ein Gant-Diagramm an. Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo)
