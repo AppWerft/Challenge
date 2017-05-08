@@ -73,9 +73,11 @@ toJson: function(csvData){
 ```
 zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfiguration des Parsers ist [hier](http://papaparse.com/docs#config), Für sehr große CSV-Dateien bräucht man ein System, das in Abhängigkeit des Viewports in der CSV-Datei seekt (RecyclerView in Android)
 
-## kundengerechte Darstellung eines Projektverlaufes 
+## Kundengerechte Darstellung eines Projektverlaufes 
 
-Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo). Welche Lösung gewinnt hängt selbstverständlich von den Kundenanforderungen ab.
+Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Intern wird für die Darstellung von Charts die Klasse `Ext.chart` verwendet, Leider ist Gantt nicht Bestandteil des Cores. Eventuell kann man durch Erweiterung vorhandener Charts das Tiel erreichen oder mit Third-Party-Libratries hantieren. 
+
+Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo). Welche Lösung gewinnt hängt selbstverständlich von den Kundenanforderungen ab.
 
 ![](http://www.aceproject.com/img/ss/gantt-chart-en.jpg)
 
