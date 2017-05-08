@@ -4,7 +4,7 @@
 
 ## Import einer CSV in Sencha extJS
 
-Daten werden im Sencha Sytem intern in einem Model bzw. Store gehalten. Für den Import externer Daten wird ein Proxy benötigt:
+Daten werden im Sencha Sytem intern in einem Model bzw. Store gehalten. Für den Import externer Daten wird ein Proxy benötigt, der einen Reader nutzt. CSV gehört nicht zur Werkzeugkiste, sondern nur JSON, XML und Array. Als `reader` muss also eine neue Klasse eingesetzt werden, die sich von `Ext.data.reader.JSON` ableitet:
 ```javascript
 store: new Ext.data.Store({
      model: 'myProject',
@@ -15,8 +15,6 @@ store: new Ext.data.Store({
      },
 }),
 ```
-CSV gehört nicht zur Grundausstattung von Sencha, es wird nor JSON, XML und Array unterstützt. Man braucht also einen neuen Reader, der den Import leistet.
-
 ### CsvReader
 
 Vom Grundsatz her wird die *class*  _Ext.data.reader.Json_ mit neuen angepassten Methoden überschrieben. Die Magie steckt in der Methode _toJson()_ 
