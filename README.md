@@ -75,7 +75,7 @@ zu nutzen, weil man mit der String-Schnittstelle im Schema bleibt.  Die Konfigur
 
 ## Kundengerechte Darstellung eines Projektverlaufes 
 
-Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Intern wird für die Darstellung von Charts die Klasse `Ext.chart` verwendet, Leider ist Gantt nicht Bestandteil des Cores. Eventuell kann man durch Erweiterung vorhandener Charts das Tiel erreichen oder mit Third-Party-Libratries hantieren. 
+Für die Darstellung des Projektverlaufes bietet sich ein Gantt-Diagramm an. Intern wird für die Darstellung von Charts die Klasse `Ext.chart` verwendet, Leider ist Gantt nicht Bestandteil dieser Klasse . Eventuell kann man durch Erweiterung vorhandener Charts das Ziel erreichen oder mit Third-Party-Libratries hantieren. Solche Bibliotheken können über `Ext.Component` eingebunden werden.
 
 Außerhalb des Sencha-Welt hätte man die Auswahl in über 50 verschiedenen Chart-Libraries, beispielsweise [HighChart](https://www.highcharts.com/demo). Welche Lösung gewinnt hängt selbstverständlich von den Kundenanforderungen ab.
 
